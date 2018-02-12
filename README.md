@@ -1,5 +1,5 @@
 # A Deep Nueral Spoiler Detection Model using a Genre-Aware Attention Mechanism (PAKDD'18)
-In this repository, I'm going to implement the paper, which is <b>"A Deep Neural Spoiler Detection Model using a Genre-Aware Attention Mechanism"</b>, (B. Chang et al, PAKDD'18), using a Tensorflow library.
+In this repository, We're going to implement the paper, which is <b>"A Deep Neural Spoiler Detection Model using a Genre-Aware Attention Mechanism"</b>, (B. Chang et al, PAKDD'18), using a Tensorflow library.
 
 ## Abstract
 The fast-growing volume of online activity and user-generated content increases the chances of users being exposed to spoilers. 
@@ -19,6 +19,10 @@ We also conduct a qualitative analysis on the relations between spoilers and gen
 <img src="/figures/model_description.png" width="700px" height="auto">
 </p>
 Our spoiler detection model consists of genre encoder and sentence encoder.
+
+## Getting Started
+### Dataset
+We conduct the experimental evaluation on the [dataset](#) used in adfa.
 
 ## Data set
 Data set is available at [here](https://s3.amazonaws.com/poiprediction/instagram.tar.gz). The data set includes "train.txt", "validation.txt", "test.txt", and "visual_feature.npz". The "train.txt"  "validation.txt" "test.txt" files include the training, validation, and tesing data respectively. The data is represented in the following format:
