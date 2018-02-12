@@ -27,7 +27,7 @@ We use the WordPunctTokenizer of the nltk to tokenize the sentence, and use the 
 Since the published dataset does not contain the genre informatoin, we crawl the genre information of the creative works from [IMDb.com](http://www.imdb.com/).<br>
 The data is represented in the following format:
 ```bash
-<label> \t <word_1 word_2 word_3 ...> \t <genre_1  genre_2 ...>
+<word_1 word_2 word_3 ...> \t <label> \t <genre_1  genre_2 ...>
 ```
 
 ### Prerequisites
