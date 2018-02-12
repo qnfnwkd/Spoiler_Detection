@@ -1,4 +1,7 @@
 # A Deep Nueral Spoiler Detection Model using a Genre-Aware Attention Mechanism (PAKDD'18)
+In this repository, I'm going to implement the paper, which is <b>"A Deep Neural Spoiler Detection Model using a Genre-Aware Attention Mechanism"</b>, (B. Chang et al, PAKDD'18), using a Tensorflow library.
+
+## Abstract
 The fast-growing volume of online activity and user-generated content increases the chances of users being exposed to spoilers. 
 To address this problem, several spoiler detection models have been proposed. 
 However, most of the previous models rely on hand-crafted domain-specific features, which limits the generalizability of the models. 
