@@ -25,6 +25,10 @@ Our spoiler detection model consists of genre encoder and sentence encoder.
 We conduct the experimental evaluation on the [dataset](http://umiacs.umd.edu/jbg/downloads/spoilers.tar.gz) used in the paper <b>"Spoiler alert: Machine learning approaches to detect social media posts with revelatory information."</b>, (Boyd-Graber et al, 2013).<br>
 We use the WordPunctTokenizer of the nltk to tokenize the sentence, and use the [Glove (840B, 300d)](https://nlp.stanford.edu/projects/glove/) as a pre-trained word embedding.<br>
 Since the published dataset does not contain the genre informatoin, we crawl the genre information of the creative works from [IMDb.com](http://www.imdb.com/).<br>
+The data is represented in the following format:
+```bash
+<label> \t <word_1 word_2 word_3 ...> \t <genre_1  genre_2 ...>
+```
 
 ## Data set
 Data set is available at [here](https://s3.amazonaws.com/poiprediction/instagram.tar.gz). The data set includes "train.txt", "validation.txt", "test.txt", and "visual_feature.npz". The "train.txt"  "validation.txt" "test.txt" files include the training, validation, and tesing data respectively. The data is represented in the following format:
