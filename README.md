@@ -34,9 +34,3 @@ The data is represented in the following format:
 - python 2.7
 - tensorflow r1.2.1
 
-### Usage
-```bash
-git clone https://github.com/qnfnwkd/DeepPIM
-cd DeepPIM
-python train.py
-```
