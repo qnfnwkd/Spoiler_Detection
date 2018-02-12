@@ -16,7 +16,7 @@ We also conduct a qualitative analysis on the relations between spoilers and gen
 
 ## Model description
 <p align="center">
-<img src="/figures/model_description.png" width="800px" height="auto">
+<img src="/figures/model_description.png" width="700px" height="auto">
 </p>
 Our spoiler detection model consists of genre encoder and sentence encoder.
 
